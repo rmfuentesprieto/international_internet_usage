@@ -28,7 +28,7 @@ The api implements 4 handlers:
     - the body contains the keys that will be updated, the valid
       keys are the same as in the add request
 
-## How to deploy
+## How to run the api
 
 With the following commands set up the environment
 and leave the api running in localhost:5000
@@ -41,6 +41,11 @@ python .\load_data.py
 python .\api.py
 flask --app api run
 ```
+
+
+The commands where intended to run on Windows. 
+If another OS is being used change how the virtual env is activated. 
+The same applies in the test section.
 
 ## How to test
 
